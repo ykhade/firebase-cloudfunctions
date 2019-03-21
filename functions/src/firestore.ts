@@ -3,6 +3,7 @@ import * as admin from 'firebase-admin';
 
 const db = admin.firestore();
 
+//Will invoke a cloud function to write to my firestore
 export const gameCount = functions.firestore
     .document('games/{gameId}')
     .onCreate(async (snapshot, context) => {
