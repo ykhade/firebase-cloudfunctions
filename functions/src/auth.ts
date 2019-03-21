@@ -1,7 +1,6 @@
 import * as functions from 'firebase-functions';
 
 import * as admin from 'firebase-admin';
-
 admin.initializeApp();
 
 const db = admin.firestore();
@@ -13,7 +12,7 @@ export const createUserRecord = functions.auth
 
         return userRef.set({
             name: user.displayName,
-            createAt: context.timestamp,
-            nickname: 'buddy'
+            createdAt: context.timestamp,
+            nickname: 'bubba'
         });
     });
