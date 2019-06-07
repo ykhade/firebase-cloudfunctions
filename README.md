@@ -20,7 +20,7 @@ npm install
 
 * **Yash Khade** - *Full Project* - [ykhade](https://github.com/ykhade)
 ## MIT Licensed
-This project is licensed under the MIT [License](LICENSE.md) 
+This project is licensed under the MIT [License](LICENSE) 
 ## Acknowledgments
 * Fireship.io  
 
